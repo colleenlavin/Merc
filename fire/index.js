@@ -2,12 +2,14 @@ const firebase = require('firebase')
 
 // -- // -- // -- // Firebase Config // -- // -- // -- //
 const config = {
+
    apiKey: "AIzaSyCds_pOhWC_F9BLoPWHd7NsOHzT9k6_xpE",
     authDomain: "mercury-c8534.firebaseapp.com",
     databaseURL: "https://mercury-c8534.firebaseio.com",
     projectId: "mercury-c8534",
     storageBucket: "mercury-c8534.appspot.com",
     messagingSenderId: "22146840200"
+
 }
 // -- // -- // -- // -- // -- // -- // -- // -- // -- //
 
