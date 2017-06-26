@@ -46,4 +46,11 @@ sidebar {
 .home{
   padding: 50px;
 }
+.chart{
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+}
 
