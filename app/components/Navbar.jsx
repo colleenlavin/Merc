@@ -23,6 +23,7 @@ export default function Navbar({ handleClick }) {
           greeting and a logout button, or sign in buttons, depending
           on if anyone's logged in */}
                         <WhoAmI auth={auth} />
+                        <li><Link id="home" to="/home">Home</Link></li>
                     </ul>
                 </div>
             </div>

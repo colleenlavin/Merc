@@ -7,6 +7,7 @@ import WhoAmI from './components/WhoAmI'
 import Navbar from './components/Navbar'
 import NotFound from './components/NotFound'
 import Sidebar from './components/Sidebar'
+import FrontPage from './components/FrontPage'
 
 import firebase from 'APP/fire'
 
@@ -54,6 +55,7 @@ render(
     <Route path="/" component={App}>
       <IndexRedirect to="demos" />
       {Demos /* Put all the demos and a description page at /demos */}
+      <Route path='/home' component={FrontPage} />
     </Route>
     <Route path='*' component={NotFound} />
   </Router>,
